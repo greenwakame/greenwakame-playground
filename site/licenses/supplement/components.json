@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 1,
+  "status": "COVERED",
+  "releaseApproved": false,
+  "scope": "Supplement to immutable Phase 1 distribution; component evidence is not a complete SBOM",
+  "rapier": {
+    "npmVersion": "0.21.0",
+    "sourceTag": "js-v0.21.0",
+    "sourceCommit": "b716d375efc0201003f0cd9ef7168eee0b62c177",
+    "nativeVersion": "0.36.0"
+  },
+  "wasmSha256": "17cfa80eebd8de0291b948496dbffba724b98b489687f8272ca236a7bbf1dd4b",
+  "completeCargoLockAvailable": false,
+  "selectionPolicy": "Keep P1-G verified MIT choices; Apache-2.0 for P1-H2 reviewed compatible families; Zlib for wide; preserve independent MIT/Sun/BSD/Unicode/LLVM conditions",
+  "components": [
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "category": "A",
+      "license": "MIT",
+      "selectedLicense": "MIT",
+      "role": "required notice",
+      "sourceUrl": "https://registry.npmjs.org/base64-js/1.5.1",
+      "evidence": "Exact source-map source equals official npm member",
+      "copyright": "2014 Jameson Little",
+      "files": [
+        "base64-js-1.5.1/LICENSE"
+      ],
+      "notice": "No separate NOTICE in official npm archive",
+      "status": "COVERED",
+      "uncertainty": "No claim that source-map inventory covers WASM",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "tslib",
+      "version": "2.4.1",
+      "category": "A",
+      "license": "0BSD",
+      "selectedLicense": "0BSD",
+      "role": "voluntary transparency",
+      "sourceUrl": "https://registry.npmjs.org/tslib/2.4.1",
+      "evidence": "Exact source-map source equals official npm member",
+      "copyright": "Microsoft Corporation",
+      "files": [
+        "tslib-2.4.1/LICENSE.txt"
+      ],
+      "notice": "No separate NOTICE in official npm archive",
+      "status": "COVERED",
+      "uncertainty": "No claim that source-map inventory covers WASM",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "ena",
+      "version": "0.14.4",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/ena/ena-0.14.4.crate",
+      "archiveSha256": "eabffdaee24bd1bf95c5ef7cec31260444317e72ea56c4c91750e8b7ee58d5f1",
+      "copyright": [
+        "Copyright (c) 2010 The Rust Project Developers"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "ena-0.14.4/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "glam",
+      "version": "0.33.10",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/glam/glam-0.33.10.crate",
+      "archiveSha256": "928452f9c953e142b2f0973e4bd5f34445fcaa8069556ea97a3c9d34d15a4cf8",
+      "copyright": [
+        "Copyright (c) 2011-2020 Microsoft Corp",
+        "Copyright (c) 2018 Nicholas Frechette",
+        "Copyright (c) 2005 - G-Truc Creation",
+        "Copyright 2020 Cameron Hart"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "glam-0.33.10/LICENSE-MIT",
+        "glam-0.33.10/LICENSE-APACHE",
+        "glam-0.33.10/ATTRIBUTION.md"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "glamx",
+      "version": "0.3.1",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/glamx/glamx-0.3.1.crate",
+      "archiveSha256": "28d74079318e3a077bd3d15faa90fde24fa37bb9f157f92f853e6019a15fd413",
+      "copyright": [
+        "Copyright 2020 Cameron Hart"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "glamx-0.3.1/LICENSE-MIT",
+        "glamx-0.3.1/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/hashbrown/hashbrown-0.17.1.crate",
+      "archiveSha256": "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a",
+      "copyright": [
+        "Copyright (c) 2016 Amanieu d'Antras"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/hashbrown-0.17.1/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "js-sys",
+      "version": "0.3.106",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/js-sys/js-sys-0.3.106.crate",
+      "archiveSha256": "7883d941dae510fb2d978fc3fe018c71c9e2892fd38854de3e8b92c2e5ad9cc5",
+      "copyright": [
+        "Copyright (c) 2014 Alex Crichton"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "js-sys-0.3.106/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "nalgebra",
+      "version": "0.35.0",
+      "category": "A",
+      "license": "Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://static.crates.io/crates/nalgebra/nalgebra-0.35.0.crate",
+      "archiveSha256": "adc43a60c217b0c6ff46e47f26911015ad8d2e5a8be1af668c67e370d99a4346",
+      "copyright": [
+        "Copyright 2020 Sébastien Crozet"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "nalgebra-0.35.0/LICENSE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate",
+      "archiveSha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+      "copyright": [],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "parry3d",
+      "version": "0.31.1",
+      "category": "A",
+      "license": "Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://static.crates.io/crates/parry3d/parry3d-0.31.1.crate",
+      "archiveSha256": "7b626edc0b497dba4bdf6e1e0797895294ed9f61dac2bd28cb5d34d37ad2ca7e",
+      "copyright": [],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/THIRD_PARTY_LICENSES.md"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "smallvec",
+      "version": "1.16.2",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/smallvec/smallvec-1.16.2.crate",
+      "archiveSha256": "f9395f0f0eee849a9b707b2f06bb92a6a422090e2123bb2ef8e87a0e61892a8e",
+      "copyright": [
+        "Copyright (c) 2018 The Servo Project Developers"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "smallvec-1.16.2/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "web-time",
+      "version": "1.1.0",
+      "category": "A",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/web-time/web-time-1.1.0.crate",
+      "archiveSha256": "5a6580f308b1fad9207618087a65c04e7a10bc77e02c8e84e9b00dd4b12fa0bb",
+      "copyright": [
+        "Copyright 2023 dAxpeDDa",
+        "Copyright (c) 2023 dAxpeDDa"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/web-time-1.1.0/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "dlmalloc",
+      "version": "0.2.13",
+      "category": "A",
+      "license": "MIT/Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/dlmalloc/dlmalloc-0.2.13.crate",
+      "archiveSha256": "9f5b01c17f85ee988d832c40e549a64bd89ab2c9f8d8a613bdf5122ae507e294",
+      "copyright": [
+        "Copyright (c) 2014 Alex Crichton"
+      ],
+      "notice": [],
+      "evidence": "Exact distributed WASM crate-version path plus official matching-version archive; not an exhaustive SBOM",
+      "files": [
+        "dlmalloc-0.2.13/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-component texts supplied; whole-WASM coverage remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution"
+    },
+    {
+      "name": "wasm-bindgen",
+      "version": "0.2.129",
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/wasm-bindgen/wasm-bindgen-0.2.129.crate",
+      "archiveSha256": "9bb54f33acc68fd454578d9820b0bde1a1a3d17aa17bb7b6595806d02886d409",
+      "copyright": [
+        "Copyright (c) 2014 Alex Crichton"
+      ],
+      "notice": [],
+      "evidence": "js-sys 0.3.106 manifest requires wasm-bindgen =0.2.129; runtime linked extent not independently resolved",
+      "files": [
+        "wasm-bindgen-0.2.129/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Fixed dependency requirement; final linked subset remains unverified",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "Rust core/alloc/std",
+      "version": "1.98.1 source tree; binary compiler path commit identified",
+      "category": "C",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "MIT for general Rust-authored code; preserve component exceptions",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/COPYRIGHT",
+      "copyright": [
+        {
+          "path": "./library/core/src/unicode",
+          "license": {
+            "copyright": [
+              "1991-2024 Unicode, Inc"
+            ],
+            "spdx": "Unicode-3.0"
+          }
+        },
+        {
+          "path": "./library/core/src/unicode/mod.rs",
+          "license": {
+            "copyright": [
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/backtrace",
+          "license": {
+            "copyright": [
+              "2014 Alex Crichton",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/std/src/sync/mpmc",
+          "license": {
+            "copyright": [
+              "2019 The Crossbeam Project Developers",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "notice": "Individual per-file notices may apply",
+      "evidence": "Official source tree at compiler path commit; not a final linked inventory",
+      "files": [
+        "rust/COPYRIGHT.txt",
+        "rust/LICENSE-MIT"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Per-file exceptions and linked runtime subset are not fully established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "compiler_builtins",
+      "version": "0.1.160 in matching Rust library Cargo.lock",
+      "category": "C",
+      "license": "MIT AND Apache-2.0 WITH LLVM-exception AND (MIT OR Apache-2.0)",
+      "selectedLicense": "MIT AND Apache-2.0 WITH LLVM-exception AND (MIT OR Apache-2.0)",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/COPYRIGHT",
+      "copyright": [
+        {
+          "path": "./library/core/src/unicode",
+          "license": {
+            "copyright": [
+              "1991-2024 Unicode, Inc"
+            ],
+            "spdx": "Unicode-3.0"
+          }
+        },
+        {
+          "path": "./library/core/src/unicode/mod.rs",
+          "license": {
+            "copyright": [
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/backtrace",
+          "license": {
+            "copyright": [
+              "2014 Alex Crichton",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/std/src/sync/mpmc",
+          "license": {
+            "copyright": [
+              "2019 The Crossbeam Project Developers",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "notice": "Individual per-file notices may apply",
+      "evidence": "Exact source commit; 203 candidates reviewed; 23 original legal blocks in 73 files conservatively preserved with full conditions",
+      "files": [
+        "rust/compiler-builtins-LICENSE.txt",
+        "rust/libm-LICENSE.txt",
+        "rust/notice-map.json",
+        "rust/runtime-NOTICES.txt"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Linked functions remain unconfirmed; preservation of audited candidate notices avoids relying on a function-level exclusion",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "Rust Unicode tables",
+      "version": "48a229ceaefd4985c50990b14116b6d856af0985",
+      "category": "C",
+      "license": "Unicode-3.0",
+      "selectedLicense": "Unicode-3.0",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/COPYRIGHT",
+      "copyright": [
+        {
+          "path": "./library/core/src/unicode",
+          "license": {
+            "copyright": [
+              "1991-2024 Unicode, Inc"
+            ],
+            "spdx": "Unicode-3.0"
+          }
+        },
+        {
+          "path": "./library/core/src/unicode/mod.rs",
+          "license": {
+            "copyright": [
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/backtrace",
+          "license": {
+            "copyright": [
+              "2014 Alex Crichton",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        },
+        {
+          "path": "./library/std/src/sync/mpmc",
+          "license": {
+            "copyright": [
+              "2019 The Crossbeam Project Developers",
+              "The Rust Project Developers (see https://thanks.rust-lang.org)"
+            ],
+            "spdx": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "notice": "Individual per-file notices may apply",
+      "evidence": "Official source tree at compiler path commit; not a final linked inventory",
+      "files": [
+        "rust/Unicode-3.0.txt"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Actual retained table subset not established; source metadata copyright reproduced in component metadata",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "serde",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://raw.githubusercontent.com/dimforge/rapier/b716d375efc0201003f0cd9ef7168eee0b62c177/bindings/typescript/builds/prepare_builds/templates/Cargo.toml.tera",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Direct dependency in exact JS release Cargo template; only requirement known",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Resolved version, retained code and individual notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "1.0.0",
+        "maximum": "1.0.229",
+        "officialArchivesCompared": 230,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "bincode",
+      "version": null,
+      "category": "B",
+      "license": "MIT",
+      "selectedLicense": "MIT",
+      "sourceUrl": "https://static.crates.io/crates/bincode/bincode-1.3.3.crate",
+      "copyright": [
+        "Copyright (c) 2014 Ty Overby",
+        "Copyright (c) 2015 Andrew Gallant"
+      ],
+      "notice": null,
+      "evidence": "Conservative official 1.3.3 notices for bincode 1.x; resolved release remains unconfirmed",
+      "files": [
+        "bincode-1.3.3/NOTICES.txt",
+        "bincode-1.3.3/LICENSE.md",
+        "bincode-1.3.3/byteorder-COPYRIGHT.txt"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Not a claim that bincode 1.3.3 was the resolved release",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "noticeReferenceVersion": "1.3.3"
+    },
+    {
+      "name": "palette",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://raw.githubusercontent.com/dimforge/rapier/b716d375efc0201003f0cd9ef7168eee0b62c177/bindings/typescript/builds/prepare_builds/templates/Cargo.toml.tera",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Direct dependency in exact JS release Cargo template; only requirement known",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Resolved version, retained code and individual notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "0.7.0",
+        "maximum": "0.7.7",
+        "officialArchivesCompared": 8,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "ref-cast",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://raw.githubusercontent.com/dimforge/rapier/b716d375efc0201003f0cd9ef7168eee0b62c177/bindings/typescript/builds/prepare_builds/templates/Cargo.toml.tera",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Direct dependency in exact JS release Cargo template; only requirement known",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Resolved version, retained code and individual notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "1.0.0",
+        "maximum": "1.0.27",
+        "officialArchivesCompared": 28,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "simba",
+      "version": null,
+      "category": "B",
+      "license": "Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "num-traits",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "approx",
+      "version": null,
+      "category": "B",
+      "license": "Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "arrayvec",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "bitflags",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "log",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "0.4.0",
+        "maximum": "0.4.34",
+        "officialArchivesCompared": 35,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "thiserror",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "COVERED",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "2.0.0",
+        "maximum": "2.0.21",
+        "officialArchivesCompared": 22,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "profiling",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Corresponding Rapier build definition selects no profiling backend; default procmacros and used no-backend function expansion reviewed in P1-H2",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "NON-BLOCKING",
+      "uncertainty": "Exact build-time unified feature report unavailable; no backend inclusion asserted",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps",
+      "p1h2CompatibleFamilyReview": {
+        "minimum": "1.0.0",
+        "maximum": "1.0.18",
+        "officialArchivesCompared": 19,
+        "upperPublishTime": "2026-09-25T08:46:23.636Z",
+        "applicableSeparateNoticeFound": false,
+        "notActualResolvedVersion": true
+      }
+    },
+    {
+      "name": "static_assertions",
+      "version": null,
+      "category": "B",
+      "license": "MIT OR Apache-2.0",
+      "selectedLicense": "Apache-2.0",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [
+        "works/midnight-inspection/v0.1.0-phase1/licenses/wasm/once_cell-1.21.4/LICENSE-APACHE"
+      ],
+      "status": "NON-BLOCKING",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    },
+    {
+      "name": "wide",
+      "version": null,
+      "category": "B",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "selectedLicense": "Zlib",
+      "sourceUrl": "https://github.com/dimforge/rapier/blob/b716d375efc0201003f0cd9ef7168eee0b62c177/crates/rapier3d/Cargo.toml",
+      "copyright": null,
+      "notice": null,
+      "evidence": "Native Rapier Cargo dependency; not a resolved or linked inventory",
+      "files": [],
+      "status": "NON-BLOCKING",
+      "uncertainty": "Version and retained-code notices not established",
+      "requiredBeforePublic": "Keep listed notices and applicable license conditions with the distribution",
+      "assessmentSource": "P1-H2 review carried forward; P1-I supplements known bincode/runtime gaps"
+    }
+  ],
+  "upstreamCopies": [
+    {
+      "path": "base64-js-1.5.1/LICENSE",
+      "sourceUrl": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+      "archiveMember": "package/LICENSE",
+      "sourceArchiveSha256": "b1b7a945b52685269083425216d6597e33d97bf21699d656e92fdb3eb5210a85",
+      "bytes": 1081,
+      "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "tslib-2.4.1/LICENSE.txt",
+      "sourceUrl": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz",
+      "archiveMember": "package/LICENSE.txt",
+      "sourceArchiveSha256": "8caedbb2ef12e461ede011dbd81942ba6ca809bbf744b97fc4eb1c6cc416f99a",
+      "bytes": 655,
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "tslib-2.4.1/CopyrightNotice.txt",
+      "sourceUrl": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz",
+      "archiveMember": "package/CopyrightNotice.txt",
+      "sourceArchiveSha256": "8caedbb2ef12e461ede011dbd81942ba6ca809bbf744b97fc4eb1c6cc416f99a",
+      "bytes": 822,
+      "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "ena-0.14.4/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/ena/ena-0.14.4.crate",
+      "archiveMember": "ena-0.14.4/LICENSE-MIT",
+      "sourceArchiveSha256": "eabffdaee24bd1bf95c5ef7cec31260444317e72ea56c4c91750e8b7ee58d5f1",
+      "bytes": 1071,
+      "sha256": "0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "glam-0.33.10/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/glam/glam-0.33.10.crate",
+      "archiveMember": "glam-0.33.10/LICENSE-MIT",
+      "sourceArchiveSha256": "928452f9c953e142b2f0973e4bd5f34445fcaa8069556ea97a3c9d34d15a4cf8",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "glam-0.33.10/LICENSE-APACHE",
+      "sourceUrl": "https://static.crates.io/crates/glam/glam-0.33.10.crate",
+      "archiveMember": "glam-0.33.10/LICENSE-APACHE",
+      "sourceArchiveSha256": "928452f9c953e142b2f0973e4bd5f34445fcaa8069556ea97a3c9d34d15a4cf8",
+      "bytes": 10834,
+      "sha256": "be33ddb87a30fd321ab100e2d922cba512e50ec7a63d8e62e5bfc0798dd4b585",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "glam-0.33.10/ATTRIBUTION.md",
+      "sourceUrl": "https://static.crates.io/crates/glam/glam-0.33.10.crate",
+      "archiveMember": "glam-0.33.10/ATTRIBUTION.md",
+      "sourceArchiveSha256": "928452f9c953e142b2f0973e4bd5f34445fcaa8069556ea97a3c9d34d15a4cf8",
+      "bytes": 3718,
+      "sha256": "9f0738ead3dcc72bac87afc652c2466e1bc130d235db7798f98da4d4ef013639",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "glamx-0.3.1/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/glamx/glamx-0.3.1.crate",
+      "archiveMember": "glamx-0.3.1/LICENSE-MIT",
+      "sourceArchiveSha256": "28d74079318e3a077bd3d15faa90fde24fa37bb9f157f92f853e6019a15fd413",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "glamx-0.3.1/LICENSE-APACHE",
+      "sourceUrl": "https://static.crates.io/crates/glamx/glamx-0.3.1.crate",
+      "archiveMember": "glamx-0.3.1/LICENSE-APACHE",
+      "sourceArchiveSha256": "28d74079318e3a077bd3d15faa90fde24fa37bb9f157f92f853e6019a15fd413",
+      "bytes": 10834,
+      "sha256": "be33ddb87a30fd321ab100e2d922cba512e50ec7a63d8e62e5bfc0798dd4b585",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "js-sys-0.3.106/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/js-sys/js-sys-0.3.106.crate",
+      "archiveMember": "js-sys-0.3.106/LICENSE-MIT",
+      "sourceArchiveSha256": "7883d941dae510fb2d978fc3fe018c71c9e2892fd38854de3e8b92c2e5ad9cc5",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "nalgebra-0.35.0/LICENSE",
+      "sourceUrl": "https://static.crates.io/crates/nalgebra/nalgebra-0.35.0.crate",
+      "archiveMember": "nalgebra-0.35.0/LICENSE",
+      "sourceArchiveSha256": "adc43a60c217b0c6ff46e47f26911015ad8d2e5a8be1af668c67e370d99a4346",
+      "bytes": 11347,
+      "sha256": "ceacfa4d7fa67df64ab09a56fe248c50a3bfc9bc00374d69bd74ad763b14b89c",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "smallvec-1.16.2/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/smallvec/smallvec-1.16.2.crate",
+      "archiveMember": "smallvec-1.16.2/LICENSE-MIT",
+      "sourceArchiveSha256": "f9395f0f0eee849a9b707b2f06bb92a6a422090e2123bb2ef8e87a0e61892a8e",
+      "bytes": 1072,
+      "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "dlmalloc-0.2.13/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/dlmalloc/dlmalloc-0.2.13.crate",
+      "archiveMember": "dlmalloc-0.2.13/LICENSE-MIT",
+      "sourceArchiveSha256": "9f5b01c17f85ee988d832c40e549a64bd89ab2c9f8d8a613bdf5122ae507e294",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "wasm-bindgen-0.2.129/LICENSE-MIT",
+      "sourceUrl": "https://static.crates.io/crates/wasm-bindgen/wasm-bindgen-0.2.129.crate",
+      "archiveMember": "wasm-bindgen-0.2.129/LICENSE-MIT",
+      "sourceArchiveSha256": "9bb54f33acc68fd454578d9820b0bde1a1a3d17aa17bb7b6595806d02886d409",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "rust/COPYRIGHT.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/COPYRIGHT",
+      "archiveMember": null,
+      "sourceArchiveSha256": null,
+      "bytes": 1571,
+      "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "rust/LICENSE-MIT",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/LICENSE-MIT",
+      "archiveMember": null,
+      "sourceArchiveSha256": null,
+      "bytes": 1068,
+      "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "rust/compiler-builtins-LICENSE.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/library/compiler-builtins/LICENSE.txt",
+      "archiveMember": null,
+      "sourceArchiveSha256": null,
+      "bytes": 15078,
+      "sha256": "ab6eec6caf0fa5775e411c7a8bc6a45c4ef2956b0980b157ab74fc5cd62a928b",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "rust/libm-LICENSE.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/library/compiler-builtins/libm/LICENSE.txt",
+      "archiveMember": null,
+      "sourceArchiveSha256": null,
+      "bytes": 14088,
+      "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "rust/Unicode-3.0.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/LICENSES/Unicode-3.0.txt",
+      "archiveMember": null,
+      "sourceArchiveSha256": null,
+      "bytes": 1995,
+      "sha256": "f5062c9a188d81dfe66b56db4182dcf9e4b17c0d9b0d311a8e20b3a1b075c443",
+      "copyPolicy": "Exact upstream bytes; no license text edits"
+    },
+    {
+      "path": "bincode-1.3.3/LICENSE.md",
+      "bytes": 1097,
+      "sha256": "237710d4c9dd8eb7fead2c9c433be493a878f547d1093812feff43d18abe5896",
+      "copyPolicy": "Exact upstream member"
+    },
+    {
+      "path": "bincode-1.3.3/byteorder-COPYRIGHT.txt",
+      "bytes": 38,
+      "sha256": "408f749e7c47cc58d60fbd230fd6406e887d20b2c0f8b70c23f69bfd77bcac3e",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "bincode-1.3.3/NOTICES.txt",
+      "bytes": 1313,
+      "sha256": "266948e7eafefaaf0b6f9dd374f0284fc255b381276adcbdf2908ad2c38acf56",
+      "copyPolicy": "Documented assembly; original blocks and license texts remain verbatim"
+    },
+    {
+      "path": "rust/individual-notices/01.txt",
+      "bytes": 466,
+      "sha256": "6d9b208b35fe86dda1dba0f5e5181ea0583bb9ed6aed2b0d48af43a8bd90211e",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/02.txt",
+      "bytes": 380,
+      "sha256": "74344ebf347f27ca446e00f1c1921f705546f4b20e0fb31c183cd2c8464b1bc5",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/03.txt",
+      "bytes": 379,
+      "sha256": "0c3d0381d2cd647be68590170490be5f624c962d9f95eb698489e578c1de8f05",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/04.txt",
+      "bytes": 414,
+      "sha256": "11a1dc1ce0b6b2879da93a266c5aebe81c4324e749c77a2ce3048b5b24ab58c0",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/05.txt",
+      "bytes": 383,
+      "sha256": "11f476f899dacfef801a097465ad0755ad4546afe03b02c9a17aa38e228344e1",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/06.txt",
+      "bytes": 34,
+      "sha256": "f73e293daa12abe52dd73882816fe4002b4f6e69065892abd57881180fb26bf2",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/07.txt",
+      "bytes": 137,
+      "sha256": "225167f203ade8fe5b0714aed4abf358d23fb9dd385a63580ba216ac88a7b799",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/08.txt",
+      "bytes": 428,
+      "sha256": "78faf2571fe417f3bcd7b38798c4d9ddf499ca43d1ede6fa44992ba75445bff7",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/09.txt",
+      "bytes": 320,
+      "sha256": "15e78071c8347a689c48ec92bbdd5eba7bd8dc74f86ee3e7ad31d34b24fefe83",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/10.txt",
+      "bytes": 1422,
+      "sha256": "2728151294eb93196ab6dd7cb28ddc6e9ab76bf7ebf8c2e1a15f0d2221c98c76",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/11.txt",
+      "bytes": 1420,
+      "sha256": "d9d31636bf6dc09dbbe83abe0514e8d867f635bf3ef99b5163b54c56e6524077",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/12.txt",
+      "bytes": 94,
+      "sha256": "80ef000233f022bf9edb37d7237c8266453c31bfa014693626cdbb281d6e5504",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/13.txt",
+      "bytes": 67,
+      "sha256": "cc7ddd4aec15d176fc40570979991b6bbe00d3ec3d9bbf7c5dd8bfe0e04278b9",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/14.txt",
+      "bytes": 48,
+      "sha256": "a997449a08324894b63f1159f979a44ef52a95bd4a0d2374c76e2e1b87e50963",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/15.txt",
+      "bytes": 67,
+      "sha256": "b1e0b197ab096657b36a818578674de4e4af0030827bf8a6e5b4405fafda000d",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/16.txt",
+      "bytes": 167,
+      "sha256": "17050c001d36064dbfc01fdbd90b93b7ea0ab69524394915e97cf654ede6e4bd",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/17.txt",
+      "bytes": 426,
+      "sha256": "cd052f4fc22d6625c9f4439c66d4512a9011446d3f2dff15842925b024821cbb",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/18.txt",
+      "bytes": 426,
+      "sha256": "e00a06f546cd736ac64d82d5c88c23810aec69eec0f61cc64705ea57693e6049",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/19.txt",
+      "bytes": 363,
+      "sha256": "ae36b8732e1a0fd7cf1b44f0840d2fca6e15432a92e6c1a1d7ef4bd5b5d83bc6",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/20.txt",
+      "bytes": 314,
+      "sha256": "5a534ed1f9266ed799e9f2e3f830f15411762021829da121b23df5edc498c6b6",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/21.txt",
+      "bytes": 468,
+      "sha256": "da28bd93659d512cba362af000b10121e71e63ef135f3ba398a05f376e90bc7e",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/22.txt",
+      "bytes": 428,
+      "sha256": "0beade56a930d1c1a35daa8cd5bbe8350757c3b38ac025a553f7db8bdfaf9e16",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/individual-notices/23.txt",
+      "bytes": 428,
+      "sha256": "59ee71a59035c18a5043881ef760e797cc17dc0cfd65eb43075f72a0ecf8292a",
+      "copyPolicy": "Exact upstream comment range"
+    },
+    {
+      "path": "rust/runtime-NOTICES.txt",
+      "bytes": 44278,
+      "sha256": "9b718836f68ed76d56abab31b03bdcdbbb9f070c3edf55a9ced747e067b708b4",
+      "copyPolicy": "Documented assembly; original blocks and license texts remain verbatim"
+    },
+    {
+      "path": "rust/notice-map.json",
+      "bytes": 140519,
+      "sha256": "18c38307b4cbb411bada3e0feaa22ed61b606aa35e322889787014846b9c58f9",
+      "copyPolicy": "Documented assembly; original blocks and license texts remain verbatim"
+    }
+  ],
+  "requiredVsRecommended": {
+    "MIT": "Retain applicable copyright and permission/disclaimer text",
+    "Apache-2.0": "Supply license; preserve applicable upstream NOTICE if one exists; source-only retention and change notices depend on distribution/modification",
+    "0BSD": "No notice retention condition; tslib inclusion is voluntary transparency",
+    "SBOM": "Cargo.lock absence alone is not a license violation; material notice coverage remains unresolved"
+  },
+  "remainingHolds": [],
+  "remainingNonBlocking": [
+    "Complete Cargo.lock unavailable",
+    "Some resolved versions and final linked functions unconfirmed; conservative compatible-family/candidate notices used"
+  ],
+  "p1iTarget18Counts": {
+    "COVERED": 15,
+    "ACTION REQUIRED": 0,
+    "EVIDENCE GAP": 0,
+    "NON-BLOCKING": 3
+  },
+  "coverageLimit": "Assessment of confirmed distribution conditions, not legal assurance or a complete dependency/function inventory",
+  "runtimeNoticeMap": "rust/notice-map.json"
+}

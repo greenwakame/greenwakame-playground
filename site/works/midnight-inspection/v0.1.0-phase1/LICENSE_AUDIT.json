@@ -1,0 +1,145 @@
+{
+  "status": "HOLD",
+  "publicReleaseApproved": false,
+  "javascript": [
+    {
+      "package": "@dimforge/rapier3d-compat",
+      "version": "0.21.0",
+      "license": "Apache-2.0",
+      "status": "LICENSE_TEXT_INCLUDED"
+    },
+    {
+      "package": "three",
+      "version": "0.186.1",
+      "license": "MIT",
+      "status": "LICENSE_AND_COPYRIGHT_INCLUDED"
+    },
+    {
+      "package": "Vite modulepreload runtime helper",
+      "version": "8.3.4",
+      "license": "MIT",
+      "status": "CORE_LICENSE_INCLUDED_SEPARATELY"
+    }
+  ],
+  "viteGeneratedList": {
+    "packages": 2,
+    "file": "THIRD_PARTY_LICENSES.md",
+    "scope": "bundled npm packages; does not enumerate native WASM dependencies or injected runtime helper"
+  },
+  "npmNoticeFiles": {
+    "three": "no separate NOTICE found in installed package",
+    "rapier": "no separate NOTICE found in installed package"
+  },
+  "wasm": {
+    "sha256": "17cfa80eebd8de0291b948496dbffba724b98b489687f8272ca236a7bbf1dd4b",
+    "bytes": 3082103,
+    "identifiedCrates": [
+      {
+        "crate": "ena-0.14.4",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "HOLD",
+        "reason": "exact license/notice texts and applicable requirements not fully verified"
+      },
+      {
+        "crate": "glam-0.33.10",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "HOLD",
+        "reason": "exact license/notice texts and applicable requirements not fully verified"
+      },
+      {
+        "crate": "glamx-0.3.1",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "HOLD",
+        "reason": "exact license/notice texts and applicable requirements not fully verified"
+      },
+      {
+        "crate": "hashbrown-0.17.1",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "LICENSE_TEXTS_VERIFIED",
+        "reason": "exact cached version manifest checked; both license texts included",
+        "declaredLicense": "MIT OR Apache-2.0",
+        "files": [
+          {
+            "path": "licenses/wasm/hashbrown-0.17.1/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+          },
+          {
+            "path": "licenses/wasm/hashbrown-0.17.1/LICENSE-MIT",
+            "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+          }
+        ]
+      },
+      {
+        "crate": "js-sys-0.3.106",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "HOLD",
+        "reason": "exact license/notice texts and applicable requirements not fully verified"
+      },
+      {
+        "crate": "nalgebra-0.35.0",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "MANIFEST_ONLY_HOLD",
+        "reason": "published matching-version manifest checked; complete notice inventory not verified",
+        "declaredLicense": "Apache-2.0",
+        "manifestEvidence": "https://docs.rs/crate/nalgebra/0.35.0/source/Cargo.toml"
+      },
+      {
+        "crate": "once_cell-1.21.4",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "LICENSE_TEXTS_VERIFIED",
+        "reason": "exact cached version manifest checked; both license texts included",
+        "declaredLicense": "MIT OR Apache-2.0",
+        "files": [
+          {
+            "path": "licenses/wasm/once_cell-1.21.4/LICENSE-APACHE",
+            "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+          },
+          {
+            "path": "licenses/wasm/once_cell-1.21.4/LICENSE-MIT",
+            "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+          }
+        ]
+      },
+      {
+        "crate": "parry3d-0.31.1",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "MANIFEST_ONLY_HOLD",
+        "reason": "published matching-version manifest checked; complete notice inventory not verified",
+        "declaredLicense": "Apache-2.0",
+        "manifestEvidence": "https://docs.rs/crate/parry3d/0.31.1/source/Cargo.toml"
+      },
+      {
+        "crate": "smallvec-1.16.2",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "HOLD",
+        "reason": "exact license/notice texts and applicable requirements not fully verified"
+      },
+      {
+        "crate": "web-time-1.1.0",
+        "evidence": "path string inside exact distributed WASM; not an exhaustive SBOM",
+        "status": "LICENSE_TEXTS_VERIFIED",
+        "reason": "exact cached version manifest checked; both license texts included",
+        "declaredLicense": "MIT OR Apache-2.0",
+        "files": [
+          {
+            "path": "licenses/wasm/web-time-1.1.0/LICENSE-APACHE",
+            "sha256": "54a744942eb3fa63a74d8d359989ed6962c04f3f10ff20cfa08ff8aa7efbe4e6"
+          },
+          {
+            "path": "licenses/wasm/web-time-1.1.0/LICENSE-MIT",
+            "sha256": "f428305bbf2e70fbd807af0f3c7ac1b7acfb95311640f451e9d2e48db6d7e96b"
+          }
+        ]
+      }
+    ],
+    "inventoryComplete": false,
+    "blockingUnknowns": [
+      "Complete release-matched native dependency SBOM and enabled features are unavailable",
+      "Not all exact-version license, copyright and NOTICE obligations have been verified",
+      "Rust standard library/compiler runtime coverage has not been established"
+    ],
+    "webEvidenceBoundary": "Exact docs.rs pages for ena, glam, glamx, hashbrown and js-sys were inaccessible through the browsing tool; no inference fills missing evidence"
+  },
+  "originalWork": "No new reuse permission is granted for original code, text or design; third-party licenses remain applicable.",
+  "rule": "Do not publish until all unknowns are resolved and human approval is received."
+}

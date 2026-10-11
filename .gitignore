@@ -1,0 +1,15 @@
+/work/
+/audit/
+/scripts/extract-safe.py
+/scripts/package-phase1.py
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.cache/
+*.tmp
+node_modules/

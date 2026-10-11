@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a1010" />
+    <meta name="description" content="深夜の建物を歩く、一人称探索ゲーム。" />
+    <link rel="icon" href="data:," />
+    <title>Midnight Inspection — 深夜の巡回記録</title>
+    <script type="module" crossorigin src="/greenwakame-playground/works/midnight-inspection/v0.1.0-phase1/assets/index-D4nK3sJi.js"></script>
+    <link rel="stylesheet" crossorigin href="/greenwakame-playground/works/midnight-inspection/v0.1.0-phase1/assets/index-o-5tjNZP.css">
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="scene" aria-label="深夜の廊下" tabindex="-1"></canvas>
+      <div class="vignette" aria-hidden="true"></div>
+      <header class="hud" aria-hidden="true"><span>夜間巡回 / 東棟</span><span id="patrol-progress">確認 0 / 3</span></header>
+      <p id="sound-status" class="sound-status" role="status">音声は開始操作で有効になります</p>
+      <aside id="patrol-records" class="patrol-records" aria-label="巡回記録" hidden>
+        <p>巡回記録</p><ul id="record-list"></ul>
+      </aside>
+      <p id="patrol-objective" class="patrol-objective" hidden></p>
+      <div id="crosshair" class="crosshair" hidden aria-hidden="true"></div>
+      <p id="listening-status" class="listening-status" hidden>聞き耳 · 音に集中しています</p>
+      <p id="interaction-hint" class="interaction-hint" role="status" hidden></p>
+      <p id="movement-hint" class="movement-hint" hidden>W A S D 移動 <span>·</span> C しゃがむ <span>·</span> E 調査・開閉 / F ノック / R 記録 <span>·</span> 右クリック / Q 聞き耳 <span>·</span> Esc 一時停止</p>
+      <section id="menu" class="menu" aria-labelledby="title">
+        <div class="menu-card">
+          <p class="eyebrow">NIGHT SHIFT · EAST WING</p>
+          <h1 id="title">MIDNIGHT<br />INSPECTION</h1>
+          <p class="subtitle">深夜の巡回記録</p>
+          <div class="rule"></div>
+          <p id="message" class="message" role="status">巡回の準備をしています。</p>
+          <section id="ending" hidden aria-labelledby="ending-title">
+            <h2 id="ending-title"></h2><p id="ending-text"></p>
+            <p class="ending-note">今回の巡回記録は画面右上に表示しています。</p>
+          </section>
+          <button id="restart" type="button" hidden>もう一度巡回する</button>
+          <button id="start" type="button" disabled>準備中</button>
+          <p class="controls">W A S D 移動 · マウス 視点 · C しゃがむ<br />E 確認札・報告 / 扉の開閉 · F ノック · R 記録<br />Esc 一時停止<br />右クリック長押し / Q 長押しで聞き耳 · ヘッドホン推奨</p>
+          <label class="audio-setting" for="volume">音量 <input id="volume" type="range" min="0" max="100" step="5" value="60" /></label>
+        </div>
+        <p class="footer-note">眠りについた建物を、ひと巡り。</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "GREENWAKAME PLAYGROUND",
+    "base": "/greenwakame-playground/",
+    "portfolioUrl": "https://greenwakame.github.io/greenwakame/",
+    "reviewDate": "2026-10-11",
+    "label": "PLAYGROUND WORKS"
+  },
+  "works": [
+    {
+      "id": "midnight-inspection",
+      "kind": "game",
+      "title": "MIDNIGHT INSPECTION",
+      "subtitle": "深夜の巡回記録",
+      "summary": "3Dの廊下を探索し、3室の異変を記録する一人称ホラーの技術プロトタイプです。音を頼りに巡回し、入口で結果を報告します。",
+      "description": "Phase 1は、3Dの廊下を中心に探索と音響を検証する技術プロトタイプです。深夜の東棟で3室を巡回し、扉の向こうの返答や異変を確かめて記録します。入口の報告ポストへ戻ると、記録に応じて2つの結末に分かれます。",
+      "technologies": [
+        "Three.js 0.186.1",
+        "Rapier WASM 0.21.0",
+        "Web Audio",
+        "TypeScript",
+        "Vite 8.3.4"
+      ],
+      "requirements": [
+        "macOS版Google Chromeが正式な動作確認対象です。",
+        "キーボードとマウスを使います。ヘッドホンを推奨します。",
+        "WebGL 2とWebAssemblyが利用できる環境が必要です。"
+      ],
+      "controls": [
+        [
+          "W / A / S / D",
+          "移動"
+        ],
+        [
+          "マウス",
+          "視点を動かす"
+        ],
+        [
+          "C",
+          "しゃがむ / 立ち上がる"
+        ],
+        [
+          "E",
+          "確認札を調べる / 扉を開閉する / 報告する"
+        ],
+        [
+          "F",
+          "ノック"
+        ],
+        [
+          "R",
+          "扉に照準を合わせて記録"
+        ],
+        [
+          "右クリック長押し / Q長押し",
+          "聞き耳"
+        ],
+        [
+          "Esc",
+          "一時停止"
+        ]
+      ],
+      "history": [
+        {
+          "phase": "Phase 1A–1B",
+          "text": "探索の基盤を作り、移動・衝突・しゃがみ・扉の開閉を実装しました。"
+        },
+        {
+          "phase": "Phase 1C",
+          "text": "空間音響、遮音、聞き耳、扉の向こうの怪異を追加しました。"
+        },
+        {
+          "phase": "Phase 1D",
+          "text": "3室の巡回記録、報告、2つの結末、再巡回を追加し、Phase 1を完成させました。"
+        }
+      ],
+      "versions": [
+        {
+          "id": "v0.1.0-phase1",
+          "label": "Phase 1 完成版",
+          "recordedAt": "2026-10-11",
+          "hosting": "internal",
+          "playUrl": "works/midnight-inspection/v0.1.0-phase1/",
+          "notes": "固定タグから作成した公開前レビュー版。作品の内容はPhase 1完成時点で固定しています。",
+          "licenseStatus": "RELEASE READY",
+          "chromeQa": "ユーザー手動QA 8/8 PASS（Chromeバージョン未記録）"
+        }
+      ],
+      "futurePlans": "昭和の日本家屋を舞台にしたホラーへの発展を構想しています。この舞台はPhase 1には実装していません。",
+      "japaneseTitle": "深夜巡回",
+      "catalogNumber": 1,
+      "genre": "3Dホラー",
+      "stage": "Phase 1プロトタイプ",
+      "playable": true,
+      "cover": {
+        "path": "assets/works/midnight-inspection/cover.png",
+        "width": 1254,
+        "height": 1254,
+        "sha256": "de6007612bd1d2efa6a55a293521f5be27b33ba2cffcd40e5619a71556bef266",
+        "alt": "深夜巡回 / MIDNIGHT INSPECTION、PW / 001のCDケース風ジャケット",
+        "caption": "ジャケットは生成AIによるコンセプトアートです。現在のゲーム実画面のスクリーンショットではありません。"
+      }
+    }
+  ]
+}

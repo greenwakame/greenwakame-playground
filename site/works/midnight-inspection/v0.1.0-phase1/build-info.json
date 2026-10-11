@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "workId": "midnight-inspection",
+  "version": "v0.1.0-phase1",
+  "sourceTag": "v0.1.0-phase1",
+  "sourceCommit": "6f1c1788e01162cd38264fe373f97520c4ab9884",
+  "sourceCommitRecordedAt": "2026-10-11T00:23:11+09:00",
+  "sourceArchiveSha256": "4697e014ba5cea64261a258c9e66ce851cbffc192e22f3367115e2f218f6d13a",
+  "sourceLockfileSha256": "f14c21219b81f569bf5f5ac7e92d153d7551a9a29d41426547455206e9969bce",
+  "buildEnvironment": {
+    "node": "24.18.0 (existing mise installation)",
+    "pnpm": "11.25.0 (existing installation; no install performed)",
+    "vite": "8.3.4",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3",
+    "platform": "macOS",
+    "dependencyMethod": "independent byte-verified copy of preexisting node_modules; package CLIs invoked directly"
+  },
+  "base": "/greenwakame-playground/works/midnight-inspection/v0.1.0-phase1/",
+  "sourcemap": false,
+  "builtAt": "2026-10-11T00:49:41.101562+09:00",
+  "checks": {
+    "typescript": "PASS exit 0",
+    "vitest": "PASS exit 0; 100 tests, 17 files",
+    "vite": "PASS exit 0; chunk size warning"
+  },
+  "licenseStatus": "HOLD",
+  "chromeManualQaStatus": "PENDING",
+  "hashScope": "All distributed version files except build-info.json itself. Full inventory including this file is in local audit/public-inventory.json.",
+  "files": {
+    "LICENSE_AUDIT.json": {
+      "bytes": 6031,
+      "sha256": "b100f2e3d036006e2630ba375328985f176d08519b7fd932f95ce2669ec0dde4"
+    },
+    "THIRD_PARTY_LICENSES.md": {
+      "bytes": 12550,
+      "sha256": "6e2f5f84e28b2b1a630b788d05ed8df0da3aeee9ee937a6d48a92c33c0663e9f"
+    },
+    "VITE_RUNTIME_LICENSE.txt": {
+      "bytes": 1162,
+      "sha256": "e373c2e74cd342b9e74d0b8813a8fddf3c9788515669a79c2ac238195673d38b"
+    },
+    "assets/index-D4nK3sJi.js": {
+      "bytes": 4913205,
+      "sha256": "41d7d5268add5ddc9a1732f90c059c0a1e128d4dc0469d3c8ab6de3d0d2fdd9e"
+    },
+    "assets/index-o-5tjNZP.css": {
+      "bytes": 4463,
+      "sha256": "18cb1e982748354a5e3966575dc213f6d0bc08da2927a33f0a7845963a26ad81"
+    },
+    "index.html": {
+      "bytes": 3185,
+      "sha256": "ff95a495d56c8ee53eb6f746ef48028b03fe8e8484be8169ff17e8dd92f75291"
+    },
+    "licenses/wasm/hashbrown-0.17.1/LICENSE-APACHE": {
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    "licenses/wasm/hashbrown-0.17.1/LICENSE-MIT": {
+      "bytes": 1060,
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+    },
+    "licenses/wasm/once_cell-1.21.4/LICENSE-APACHE": {
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    "licenses/wasm/once_cell-1.21.4/LICENSE-MIT": {
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    "licenses/wasm/web-time-1.1.0/LICENSE-APACHE": {
+      "bytes": 11338,
+      "sha256": "54a744942eb3fa63a74d8d359989ed6962c04f3f10ff20cfa08ff8aa7efbe4e6"
+    },
+    "licenses/wasm/web-time-1.1.0/LICENSE-MIT": {
+      "bytes": 1065,
+      "sha256": "f428305bbf2e70fbd807af0f3c7ac1b7acfb95311640f451e9d2e48db6d7e96b"
+    }
+  }
+}
